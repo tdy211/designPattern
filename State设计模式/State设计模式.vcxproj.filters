@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="大话版本-工作">
+      <UniqueIdentifier>{38fea304-c6ba-48e6-97bf-24e057c4f8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-工作\抽象类">
+      <UniqueIdentifier>{c1213af8-7c81-4996-947e-eb314adf0302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-工作\具体类">
+      <UniqueIdentifier>{e8a57761-4a46-4f58-941f-bc47bbbd8e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-工作\消费类">
+      <UniqueIdentifier>{f83d32f9-4b6b-499e-921e-80804694f9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF版本-TCP连接">
+      <UniqueIdentifier>{90a004e5-e87d-40de-97b2-bf9c0f1bdf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF版本-TCP连接\抽象类">
+      <UniqueIdentifier>{a0bb65ae-af8d-423f-b7fa-b56c035f153b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF版本-TCP连接\具体类">
+      <UniqueIdentifier>{486761b8-d327-4d15-8cad-d79ce4cd4132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF版本-TCP连接\消费类">
+      <UniqueIdentifier>{d2241141-6dfc-4855-b02c-3acd3f24641a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-基本">
+      <UniqueIdentifier>{21525e09-5202-4ded-9798-e11043beb059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-基本\抽象类">
+      <UniqueIdentifier>{9c26279d-e286-4056-b355-77b378f1ddee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-基本\具体类">
+      <UniqueIdentifier>{83c2808e-57a7-4d84-9f6a-5d543bab91ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话版本-基本\消费类">
+      <UniqueIdentifier>{36516a87-0bbc-484b-85a3-29872576998b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPState.h">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnection.h">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPOctetStream.h">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClosed.h">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPEstablished.h">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPListen.h">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>大话版本-工作\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="AfternoonState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="EveningState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ForenoonState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="NoonState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="RestState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepingState.h">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="MyState.h">
+      <Filter>大话版本-工作\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicState.h">
+      <Filter>大话版本-基本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>大话版本-基本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretStateA.h">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretStateB.h">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretStateC.h">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="State设计模式.cpp">
+      <Filter>GOF版本-TCP连接\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnection.cpp">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPState.cpp">
+      <Filter>GOF版本-TCP连接\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClosed.cpp">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPEstablished.cpp">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPListen.cpp">
+      <Filter>GOF版本-TCP连接\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>大话版本-工作\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="AfternoonState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="EveningState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="ForenoonState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="NoonState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="RestState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepingState.cpp">
+      <Filter>大话版本-工作\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWritePrograme.cpp">
+      <Filter>大话版本-工作\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="MyState.cpp">
+      <Filter>大话版本-工作\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicState.cpp">
+      <Filter>大话版本-基本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>大话版本-基本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretStateA.cpp">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretStateB.cpp">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="大话版本-基本.cpp">
+      <Filter>大话版本-基本\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretStateC.cpp">
+      <Filter>大话版本-基本\具体类</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

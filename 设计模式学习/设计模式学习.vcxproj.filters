@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GOF4版本">
+      <UniqueIdentifier>{0b27656e-89e9-4656-bcf4-f80c57c37171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF4版本\抽象类">
+      <UniqueIdentifier>{5797bb13-22d8-4b69-8212-08c13197c79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF4版本\具体类">
+      <UniqueIdentifier>{88c08fd6-28b4-47a3-9977-6377183c241d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOF4版本\消费类">
+      <UniqueIdentifier>{373d4986-09e8-4518-9ec8-a00fb04b2c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式继承版本">
+      <UniqueIdentifier>{b7feb905-24be-41bf-aa2e-cd1ac053e455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式继承版本\抽象类">
+      <UniqueIdentifier>{e108f9e3-766a-46bb-9b2c-3abd212d17db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式继承版本\具体类">
+      <UniqueIdentifier>{83563790-e793-4688-abf2-1ecb3bc4f6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单例模式继承版本\消费类">
+      <UniqueIdentifier>{ab182124-2a45-4bb0-b248-4b3be129a4c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>GOF4版本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GOF4版本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>GOF4版本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>单例模式继承版本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonA.h">
+      <Filter>单例模式继承版本\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonB.h">
+      <Filter>单例模式继承版本\具体类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>GOF4版本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GOF4版本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="单例模式.cpp">
+      <Filter>GOF4版本\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonBase.cpp">
+      <Filter>单例模式继承版本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonA.cpp">
+      <Filter>单例模式继承版本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonB.cpp">
+      <Filter>单例模式继承版本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="单例继承.cpp">
+      <Filter>单例模式继承版本\消费类</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
