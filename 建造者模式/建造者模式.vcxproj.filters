@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="大话基本代码">
+      <UniqueIdentifier>{36f267de-3cce-492a-b4be-3ac97f73293d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本代码\抽象类">
+      <UniqueIdentifier>{a74ce0c5-73c9-4d31-b952-33eef15401b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本代码\具体类">
+      <UniqueIdentifier>{4a91cb58-d1b6-4499-b29a-3f263e8d4c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本代码\消费类">
+      <UniqueIdentifier>{c5b0599e-0faa-46a6-bd0e-6807f148eefb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Product.cpp">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="建造者模式.cpp">
+      <Filter>大话基本代码\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretBuilder1.cpp">
+      <Filter>大话基本代码\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretBuilder2.cpp">
+      <Filter>大话基本代码\具体类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product.h">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>大话基本代码\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretBuilder1.h">
+      <Filter>大话基本代码\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretBuilder2.h">
+      <Filter>大话基本代码\具体类</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
