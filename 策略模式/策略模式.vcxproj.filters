@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="大话基本版本">
+      <UniqueIdentifier>{fc1f46f9-513c-4a95-baa0-06dec840a720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本版本\消费类">
+      <UniqueIdentifier>{a9bea279-6add-4d1f-9a14-aa285b944bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本版本\具体类">
+      <UniqueIdentifier>{0173fced-a031-422e-977c-692eab85b9e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="大话基本版本\抽象类">
+      <UniqueIdentifier>{43021c34-a1c9-43ab-82a4-15a7e7bf74f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="策略模式.cpp">
+      <Filter>大话基本版本\消费类</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>大话基本版本\抽象类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretStrategyA.cpp">
+      <Filter>大话基本版本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcretStrategyB.cpp">
+      <Filter>大话基本版本\具体类</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyContext.cpp">
+      <Filter>大话基本版本\抽象类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Strategy.h">
+      <Filter>大话基本版本\抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretStrategyA.h">
+      <Filter>大话基本版本\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcretStrategyB.h">
+      <Filter>大话基本版本\具体类</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyContext.h">
+      <Filter>大话基本版本\抽象类</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

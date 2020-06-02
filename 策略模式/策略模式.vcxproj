@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D83755B6-64FD-43FE-98A2-CA3B92605188}</ProjectGuid>
+    <ProjectGuid>{3CBE6557-6E14-44F2-BC69-6D4783E09701}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>建造者模式</RootNamespace>
+    <RootNamespace>策略模式</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,19 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Builder.cpp" />
-    <ClCompile Include="ConcretBuilder1.cpp" />
-    <ClCompile Include="ConcretBuilder2.cpp" />
-    <ClCompile Include="Director.cpp" />
-    <ClCompile Include="Product.cpp" />
-    <ClCompile Include="建造者模式.cpp" />
+    <ClCompile Include="ConcretStrategyA.cpp" />
+    <ClCompile Include="ConcretStrategyB.cpp" />
+    <ClCompile Include="Strategy.cpp" />
+    <ClCompile Include="StrategyContext.cpp" />
+    <ClCompile Include="策略模式.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Builder.h" />
-    <ClInclude Include="ConcretBuilder1.h" />
-    <ClInclude Include="ConcretBuilder2.h" />
-    <ClInclude Include="Director.h" />
-    <ClInclude Include="Product.h" />
+    <ClInclude Include="ConcretStrategyA.h" />
+    <ClInclude Include="ConcretStrategyB.h" />
+    <ClInclude Include="Strategy.h" />
+    <ClInclude Include="StrategyContext.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

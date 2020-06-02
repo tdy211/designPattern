@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D83755B6-64FD-43FE-98A2-CA3B92605188}</ProjectGuid>
+    <ProjectGuid>{FCA4B865-6D35-479A-91E0-5FABACE8D4EA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>建造者模式</RootNamespace>
+    <RootNamespace>工厂方法模式</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,19 +151,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Builder.cpp" />
-    <ClCompile Include="ConcretBuilder1.cpp" />
-    <ClCompile Include="ConcretBuilder2.cpp" />
-    <ClCompile Include="Director.cpp" />
-    <ClCompile Include="Product.cpp" />
-    <ClCompile Include="建造者模式.cpp" />
+    <ClCompile Include="AddFactory.cpp" />
+    <ClCompile Include="Ifactory.cpp" />
+    <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="OperationAdd.cpp" />
+    <ClCompile Include="OperationSub.cpp" />
+    <ClCompile Include="SubFactory.cpp" />
+    <ClCompile Include="工厂方法模式.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Builder.h" />
-    <ClInclude Include="ConcretBuilder1.h" />
-    <ClInclude Include="ConcretBuilder2.h" />
-    <ClInclude Include="Director.h" />
-    <ClInclude Include="Product.h" />
+    <ClInclude Include="AddFactory.h" />
+    <ClInclude Include="Ifactory.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="OperationAdd.h" />
+    <ClInclude Include="OperationSub.h" />
+    <ClInclude Include="SubFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
